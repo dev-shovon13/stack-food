@@ -1,0 +1,70 @@
+.log-in-bg {
+    background-image: url("https://i.ibb.co/nCH6GqK/bg.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+}
+
+.login-logo {
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.loginBox {
+    max-width: 50%;
+    margin: auto;
+}
+
+.loginCopyInfo {
+    height: 12%;
+    background-color: #343C4D;
+    color: #fff;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.copyBtn {
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.copyBtn:hover {
+    background-color: rgb(238, 237, 237) !important;
+}
+
+.loginHeight {
+    width: 100%
+}
+
+/* using some media query  */
+@media (min-width:1500px) {
+    .loginHeight {
+        height: 650px !important;
+    }
+}
+
+@media (max-width:992px) {
+    .log-in-bg {
+        height: 100%;
+    }
+}
+
+@media (max-width:700px) {
+    .loginBox {
+        max-width: 80%;
+    }
+}
+
+@media (max-width:400px) {
+    .loginBox {
+        max-width: 95%;
+    }
+}
